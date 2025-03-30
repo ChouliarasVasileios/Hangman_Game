@@ -30,7 +30,11 @@ The **Graphics User Interface** build using the **tkinter** library and the **Ha
 - Run the script python `python3 Kremala.py` [MacOS and Linux].
 
 - or `python Kremala.py` [Windows].
-
+---
+##  Preview
+- The graphical user interface of the game.
+![Hangman Interface](Preview_Images/Hangman_Interface.png)
+![Hangman_Interface_loseWin](Preview_Images/Hangman_Interface_loseWin.png)
 ---
 ## Code Revision
 - [] Restructure turtle_kremala.py
