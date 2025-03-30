@@ -17,14 +17,14 @@ The **Graphics User Interface** build using the **tkinter** library and the **Ha
 ## Installation
 
 ### Step 1: 
-- Clone the repositor
+- Clone the repository
 ---
 ### Step 2:
 - Change to folder: `cd Hangman_Game`
 ---
 ### Step 3: 
 - Activate the virtual environment. `source .venv/bin/activate` [MacOS and Linux].
-or `.venv\Scripts\activate.bat` [Windows Command Prompt], `.venv\Scripts\Activate.ps1` [Windows PowerShell].
+- or `.venv\Scripts\activate.bat` [Windows Command Prompt], `.venv\Scripts\Activate.ps1` [Windows PowerShell].
 ---
 ### Step 4:
 - Run the script python `python3 Kremala.py` [MacOS and Linux].
