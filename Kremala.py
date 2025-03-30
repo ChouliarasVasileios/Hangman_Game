@@ -225,7 +225,6 @@ class  HangmanGui:
         """ Δημιουργεί το νικητήριο παράθυρο"""
         self.winner_message1 = tk.Toplevel(self.window,bg = 'green')
         self.winner_message1.title('Βρήκατε τήν λέξη')
-        self.winner_message1.iconbitmap('hangman.icon.ico')
         self.winner_message1.geometry('550x150+{}+{}'.format(int((self.window.winfo_screenwidth()//2)-275),int((self.window.winfo_screenheight()//2)-75)))
         self.winner_message1.resizable(False,False)
         self.winner_message1.overrideredirect (True)
@@ -237,7 +236,6 @@ class  HangmanGui:
         """ Δημιουργεί το παράθυρο της ήττας"""
         self.loser_message1 = tk.Toplevel(self.window,bg = '#ac1e44')
         self.loser_message1.title('Δυστήχως δεν βρήκατε την λέξη')
-        self.loser_message1.iconbitmap('hangman.icon.ico')
         self.loser_message1.geometry('550x150+{}+{}'.format(int((self.window.winfo_screenwidth()//2)-275),int((self.window.winfo_screenheight()//2)-75)))
         self.loser_message1.resizable(False,False)
         self.loser_message1.overrideredirect (True)
@@ -253,7 +251,6 @@ class  HangmanGui:
         root.resizable(False,False)
         HangmanGui(root)
         root.title('###Κρεμαλα###')
-        root.iconbitmap('hangman.icon.ico')
         root.mainloop()
         HangmanGui(root)
     
@@ -267,7 +264,6 @@ def main():
     root.resizable(False,False)
     HangmanGui(root)
     root.title('###Κρεμαλα###')
-    root.iconbitmap('hangman.icon.ico')
     root.mainloop()
 
 
